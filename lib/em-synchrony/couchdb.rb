@@ -91,7 +91,7 @@ module EventMachine
 
       def request(type, path, options)
         uri = URI.parse("http://#{@host}:#{@port}#{path}")
-        options.merge(:head => {"Content-Type" => "application/json"})
+        options = options.merge(:head => {"content-type" => "application/json"})
         conn = EventMachine::HttpRequest.new(uri).send type, options
         JSON.load conn.response
       end
