@@ -17,6 +17,8 @@ END_DESC
   spec.add_dependency('em-http-request', '>= 1.1.0')
   spec.add_dependency('em-synchrony', '>= 1.0.3')
 
+  spec.add_development_dependency("rake")
+  
   spec.files       = `git ls-files -- lib/*`.split("\n")
   spec.test_files  = `git ls-files -- test/*`.split("\n")
 
