@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'em-synchrony-couchdb'
-  spec.version = '0.0.1'
+  spec.version = '0.1.1'
   spec.platform = Gem::Platform::RUBY
   spec.summary = 'A non-blocking client protocol for CouchDB using em-synchrony'
   spec.description = <<END_DESC
