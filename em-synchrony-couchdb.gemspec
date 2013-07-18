@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name = 'em-synchrony-couchdb'
-  spec.version = '0.1.1'
+  spec.version = '0.1.2'
   spec.platform = Gem::Platform::RUBY
-  spec.summary = 'A non-blocking client protocol for CouchDB using em-synchrony'
+  spec.summary = 'A non-blocking client for CouchDB using em-synchrony'
   spec.description = <<END_DESC
   em-synchrony-couchdb is a simple, convenient, and non-blocking client for CouchDB
   implemented using the em-synchrony version of EventMachine::HttpRequest and based
@@ -20,7 +20,7 @@ END_DESC
   spec.files       = `git ls-files -- lib/*`.split("\n")
   spec.test_files  = `git ls-files -- test/*`.split("\n")
 
-  spec.author = 'tinomen (Jake Mallory)'
+  spec.author = 'Jake Mallory, Scott Nielsen'
   spec.email = 'tinomen@gmail.com'
   spec.homepage = 'http://github.com/tinomen/em-synchrony-couchdb'
 end
