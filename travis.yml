@@ -4,3 +4,6 @@ rvm:
   - 2.0.0
 
 services: couchdb
+
+before_script:
+  - curl -X PUT localhost:5984/em-synchrony-couchdb
