@@ -1,14 +1,15 @@
 Gem::Specification.new do |spec|
-  spec.name = 'em-synchrony-couchdb'
-  spec.version = '0.1.2'
+  spec.name     = 'em-synchrony-couchdb'
+  spec.version  = '0.1.3'
   spec.platform = Gem::Platform::RUBY
-  spec.summary = 'A non-blocking client for CouchDB using em-synchrony'
-  spec.description = <<END_DESC
-  em-synchrony-couchdb is a simple, convenient, and non-blocking client for CouchDB
-  implemented using the em-synchrony version of EventMachine::HttpRequest and based
-  completely on the em-couchdb gem. With em-synchrony-couchdb, you can easily save,
-  query, delete documents, databases to/from a CouchDB database in your favourite
-  language - Ruby.
+  spec.license  = 'MIT'
+  spec.summary  = 'A non-blocking client for CouchDB using em-synchrony'
+  spec.description = <<-END_DESC
+em-synchrony-couchdb is a simple, convenient, and non-blocking client for CouchDB
+implemented using the em-synchrony version of EventMachine::HttpRequest and based
+completely on the em-couchdb gem. With em-synchrony-couchdb, you can easily save,
+query, delete documents, databases to/from a CouchDB database in your favourite
+language - Ruby.
 END_DESC
 
   spec.requirements << 'CouchDB 0.8.0 and upwards'
